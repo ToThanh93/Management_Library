@@ -46,12 +46,21 @@ class Library {
     }
 
     public void addBook(Book book) {
-        books.add(book);
+        if (book != null) {
+            books.add(book);
+            System.out.println("Book added: " + book);
+        } else {
+            System.out.println("Cannot add null book.");
+        }
     }
 
     public void listBooks() {
-        for (Book book : books) {
-            System.out.println(book);
+        if (books.isEmpty()) {
+            System.out.println("No books in the library.");
+        } else {
+            for (Book book : books) {
+                System.out.println(book);
+            }
         }
     }
 }
