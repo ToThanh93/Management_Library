@@ -1,0 +1,30 @@
+"Introduction to Algorithms" - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+"Clean Code: A Handbook of Agile Software Craftsmanship" - Robert C. Martin
+"Design Patterns: Elements of Reusable Object-Oriented Software" - Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides
+"The Pragmatic Programmer: Your Journey to Mastery" - Andrew Hunt and David Thomas
+"Structure and Interpretation of Computer Programs" - Harold Abelson and Gerald Jay Sussman
+"Artificial Intelligence: A Modern Approach" - Stuart Russell and Peter Norvig
+"The Mythical Man-Month: Essays on Software Engineering" - Frederick P. Brooks Jr.
+"Computer Networking: A Top-Down Approach" - James Kurose and Keith Ross
+"Operating System Concepts" - Abraham Silberschatz, Peter B. Galvin, and Greg Gagne
+"Database System Concepts" - Abraham Silberschatz, Henry F. Korth, and S. Sudarshan
+"Code: The Hidden Language of Computer Hardware and Software" - Charles Petzold
+"Cracking the Coding Interview" - Gayle Laakmann McDowell
+"Computer Systems: A Programmer's Perspective" - Randal E. Bryant and David R. O'Hallaron
+"The Art of Computer Programming" - Donald E. Knuth
+"Compilers: Principles, Techniques, and Tools" - Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman
+"C Programming Language" - Brian W. Kernighan and Dennis M. Ritchie
+"Algorithms" - Robert Sedgewick and Kevin Wayne
+"Deep Learning" - Ian Goodfellow, Yoshua Bengio, and Aaron Courville
+"High Performance MySQL" - Baron Schwartz, Peter Zaitsev, and Vadim Tkachenko
+"Learning Python" - Mark Lutz
+"Patterns of Enterprise Application Architecture" - Martin Fowler
+"Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation" - Jez Humble and David Farley
+"Network Security Essentials: Applications and Standards" - William Stallings
+"You Don’t Know JS" (Book Series) - Kyle Simpson
+"Mastering Bitcoin: Unlocking Digital Cryptocurrencies" - Andreas M. Antonopoulos
+"Grokking Algorithms: An illustrated guide for programmers and other curious people" - Aditya Bhargava
+"Software Engineering at Google: Lessons Learned from Programming Over Time" - Titus Winters, Tom Manshreck, and Hyrum Wright
+"Web Scalability for Startup Engineers" - Artur Ejsmont
+"Refactoring: Improving the Design of Existing Code" - Martin Fowler
+"Don't Make Me Think: A Common Sense Approach to Web Usability" - Steve Krug
