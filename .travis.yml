@@ -1,0 +1,32 @@
+language: java
+jdk:
+  - openjdk17
+
+
+cache:
+  directories:
+    - $HOME/.m2
+
+before_install:
+  - echo "Starting build"
+
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+
+script:
+  - mvn test 
+  - mvn clean verify 
+
+after_success:
+  - echo "Build succeeded, tasks can go here, e.g., deploy to a server"
+
+after_failure:
+  - echo "Build failed, actions can go here, e.g., send notifications"
+
+notifications:
+  email:
+    recipients:
+      - tothanhmta@gmail.com
+    on_success: change  # default: change
+    on_failure: always  # default: always
