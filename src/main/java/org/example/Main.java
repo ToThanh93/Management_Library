@@ -75,6 +75,23 @@ public class Main {
         library.addBook(new Book("1984", "George Orwell", 234567));
         library.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", 345678));
 
+        // Thêm 15 cuốn sách mới
+        library.addBook(new Book("Pride and Prejudice", "Jane Austen", 456789));
+        library.addBook(new Book("The Catcher in the Rye", "J.D. Salinger", 567890));
+        library.addBook(new Book("The Hobbit", "J.R.R. Tolkien", 678901));
+        library.addBook(new Book("The Diary of a Young Girl", "Anne Frank", 789012));
+        library.addBook(new Book("1984", "George Orwell", 890123));
+        library.addBook(new Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 901234));
+        library.addBook(new Book("The Lord of the Rings", "J.R.R. Tolkien", 1234567));
+        library.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", 2345678));
+        library.addBook(new Book("To Kill a Mockingbird", "Harper Lee", 3456789));
+        library.addBook(new Book("Pride and Prejudice", "Jane Austen", 4567890));
+        library.addBook(new Book("The Catcher in the Rye", "J.D. Salinger", 5678901));
+        library.addBook(new Book("The Hobbit", "J.R.R. Tolkien", 6789012));
+        library.addBook(new Book("The Diary of a Young Girl", "Anne Frank", 7890123));
+        library.addBook(new Book("1984", "George Orwell", 8901234));
+        library.addBook(new Book("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 9012345));
+
         System.out.println("Listing all books in the library:");
         library.listBooks();
     }
