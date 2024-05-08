@@ -1,14 +1,12 @@
-name: Java CI with Maven and Coveralls
+name: Java CI with Maven
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 11
@@ -19,9 +17,6 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Coveralls
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         run: mvn coveralls:report
-  env:
-    COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-  steps:
-    - name: Run Coveralls
-      run: mvn coveralls:report
