@@ -22,4 +22,4 @@ jobs:
       uses: coverallsapp/github-action@v2.2.3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./path/to/lcov.info # Đường dẫn tới file lcov mà bạn đã sinh ra từ bài test, chỉ cần nếu bạn sử dụng lcov
+        path-to-lcov: ./target/site/jacoco/lcov.info # Đường dẫn tới file lcov mà bạn đã sinh ra từ bài test, chỉ cần nếu bạn sử dụng lcov
