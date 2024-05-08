@@ -5,9 +5,10 @@ jdk:
 cache:
   directories:
     - $HOME/.m2
+
 env:
   global:
-    - secure: "encrypted-value"
+    - secure: "laNCEyZUpkDsdVjjscLsRRl3S0oZF4BOC"
 
 before_install:
   - echo "Starting build"
@@ -16,10 +17,9 @@ install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 script:
-  - mvn clean verify
+  - mvn clean test jacoco:report
 
 after_success:
-  - mvn clean test jacoco:report
   - mvn coveralls:report
   - echo "Build succeeded, tasks can go here, e.g., deploy to a server"
 
