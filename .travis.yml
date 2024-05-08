@@ -5,6 +5,9 @@ jdk:
 cache:
   directories:
     - $HOME/.m2
+env:
+  global:
+    - secure: "encrypted-value"
 
 before_install:
   - echo "Starting build"
