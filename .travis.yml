@@ -16,10 +16,11 @@ install:
 
 script:
   - mvn test 
-  - mvn clean verify 
+  - mvn clean verify
 
 after_success:
-  - mvn clean test jacoco:report coveralls:report
+  - mvn clean test jacoco:report
+  - mvn coveralls:report
   - echo "Build succeeded, tasks can go here, e.g., deploy to a server"
 
 after_failure:
