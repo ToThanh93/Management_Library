@@ -2,7 +2,6 @@ language: java
 jdk:
   - openjdk11
 
-
 cache:
   directories:
     - $HOME/.m2
@@ -13,9 +12,7 @@ before_install:
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
-
 script:
-  - mvn test 
   - mvn clean verify
 
 after_success:
@@ -30,5 +27,5 @@ notifications:
   email:
     recipients:
       - tothanhmta@gmail.com
-    on_success: change  # default: change
-    on_failure: always  # default: always
+    on_success: change  # only notify on status change
+    on_failure: always  # always notify on failure
